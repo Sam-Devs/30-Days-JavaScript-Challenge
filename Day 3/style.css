@@ -1,0 +1,31 @@
+
+
+
+body {
+  text-align: center;
+  background: #193549;
+  color: #fff;
+  font-family: fantasy;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+div.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
+
+:root {
+  --base: #ffc600;
+  --blur: 10px;
+  --spacing: 10px;
+}
+
+img {
+  filter: blur(var(--blur));
+  background: var(--base);
+  padding: var(--spacing);
+}
